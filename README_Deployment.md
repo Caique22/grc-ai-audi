@@ -14,25 +14,25 @@ ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub 
 ```
 
-3. Clone the repo GRC + AI 
+1. Clone the repo GRC + AI 
 
 ```
 git clone git@github.com:IBMGarageLA/itg-grc-ai-audi.git
 ```
 
-4. Access repo directory
+2. Access repo directory
 
 ```
 cd itg-grc-ai-audi
 ```
 
-5. Set up the environments variables to run the deployment script
+3. Set up the environments variables to run the deployment script
 
 ```
 vi deploy.env
 ```
 
-6. Run the script to deploy the application
+4. Run the script to deploy the application
 
 ```
 ./build-and-push-docker.sh
